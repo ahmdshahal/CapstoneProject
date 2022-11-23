@@ -946,7 +946,6 @@ GameObject:
   - component: {fileID: 7033654365328415286}
   - component: {fileID: 829371261904385774}
   - component: {fileID: 3994652549664848448}
-  - component: {fileID: 7313968806139286070}
   m_Layer: 0
   m_Name: Player (1)
   m_TagString: Player
@@ -1055,7 +1054,7 @@ MonoBehaviour:
   m_Device: 0
   m_PoseSource: 2
   m_PoseProviderComponent: {fileID: 0}
-  m_TrackingType: 0
+  m_TrackingType: 1
   m_UpdateType: 0
   m_UseRelativeTransform: 0
 --- !u!124 &7033654365875756105
@@ -1066,18 +1065,3 @@ Behaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7033654365875756100}
   m_Enabled: 1
---- !u!114 &7313968806139286070
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7033654365328415691}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac9d3a52fa77f604bb6c27943eef0007, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 7033654365875756102}
-  xSensitivity: 30
-  ySensitivity: 30
