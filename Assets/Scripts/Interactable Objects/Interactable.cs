@@ -8,6 +8,7 @@ public abstract class Interactable : MonoBehaviour
     public bool useEvents;
     //Message displayed to player when looking at an interactable object
     public string promptMessage;
+    public float timer;
 
     /// <summary>
     /// This function will be called from our player
