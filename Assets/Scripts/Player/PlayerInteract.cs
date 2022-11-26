@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
+using TMPro;
 
 public class PlayerInteract : MonoBehaviour
 {
@@ -15,6 +16,8 @@ public class PlayerInteract : MonoBehaviour
 
     [SerializeField]
     private GameObject timerUI;
+    [SerializeField]
+    private TMP_Text timerText;
     [SerializeField]
     private Image imgTimer;
     [SerializeField]
@@ -31,19 +34,24 @@ public class PlayerInteract : MonoBehaviour
 
     void FixedUpdate()
     {
+        InteractObjectWithTimer();
+    }
+
+    void InteractObjectWithTimer()
+    {
         //Create a ray at the center of the camera, shooting outwards.
         Ray ray = new Ray(cam.transform.position, cam.transform.forward);
         Debug.DrawRay(ray.origin, ray.direction * distance);
         RaycastHit hitInfo;
-        if(Physics.Raycast(ray, out hitInfo, distance, mask))
+        if (Physics.Raycast(ray, out hitInfo, distance, mask))
         {
             if (hitInfo.collider.GetComponent<Interactable>() != null)
             {
                 Interactable interactable = hitInfo.collider.GetComponent<Interactable>();
+                timerText.text = timerValue.ToString("0.0");
                 if (timerValue <= 0)
                 {
                     timerValue = interactable.timer;
-                    Debug.Log("Add Time");
                     countTime = interactable.timer;
                 }
                 else
@@ -54,7 +62,6 @@ public class PlayerInteract : MonoBehaviour
                     if (isCount)
                     {
                         timerValue -= Time.deltaTime;
-                        Debug.Log("is counting");
                         imgTimer.fillAmount = timerValue / countTime;
                         if (timerValue <= 0)
                         {
