@@ -7,8 +7,6 @@ public class TeleportArea : Interactable
 {
     [SerializeField]
     private Transform player;
-    [SerializeField]
-    private float speed;
 
     protected override void Interact()
     {
