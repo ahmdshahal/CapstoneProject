@@ -19,7 +19,7 @@ public class Answer : MonoBehaviour
         {
             feedTrue.SetActive(false);
             feedTrue.SetActive(true);
-            int score = PlayerPrefs.GetInt("score") + 10;
+            int score = PlayerPrefs.GetInt("score") + 25;
             PlayerPrefs.SetInt("score", score);
         } else
         {
