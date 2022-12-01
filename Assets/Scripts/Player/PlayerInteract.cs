@@ -8,7 +8,7 @@ using TMPro;
 public class PlayerInteract : MonoBehaviour
 {
     [SerializeField]
-    private float distance = 3f;
+    private float distance = 5f;
     [SerializeField]
     private LayerMask mask;
     [SerializeField]
