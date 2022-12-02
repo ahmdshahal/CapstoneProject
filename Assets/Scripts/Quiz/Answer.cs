@@ -7,12 +7,6 @@ public class Answer : MonoBehaviour
 {
     public GameObject feedTrue, feedFalse;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     public void Answering(bool Answer)
     {
         if (Answer)
@@ -28,11 +22,5 @@ public class Answer : MonoBehaviour
         }
         gameObject.SetActive(false);
         transform.parent.GetChild(gameObject.transform.GetSiblingIndex() + 1).gameObject.SetActive(true);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
