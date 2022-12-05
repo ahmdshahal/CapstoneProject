@@ -39,6 +39,9 @@ public class PlayerInteract : MonoBehaviour
 
     void InteractObjectWithTimer()
     {
+        if (Interactable.isPopUp) { mask = LayerMask.GetMask("Close");}
+        else { mask = LayerMask.GetMask("Interactable");}
+
         //Create a ray at the center of the camera, shooting outwards.
         Ray ray = new Ray(cam.transform.position, cam.transform.forward);
         Debug.DrawRay(ray.origin, ray.direction * distance);

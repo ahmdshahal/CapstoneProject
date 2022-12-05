@@ -4,9 +4,11 @@ using UnityEngine;
 
 public abstract class Interactable : MonoBehaviour
 {
+    [HideInInspector]
+    public static bool isPopUp;
+
     //Add or remove an InteractionEvent component to this gameobject
     public bool useEvents;
-    public bool isPopUp;
     //Message displayed to player when looking at an interactable object
     public string promptMessage;
     public float timer;
