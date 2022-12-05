@@ -6,6 +6,7 @@ public abstract class Interactable : MonoBehaviour
 {
     //Add or remove an InteractionEvent component to this gameobject
     public bool useEvents;
+    public bool isPopUp;
     //Message displayed to player when looking at an interactable object
     public string promptMessage;
     public float timer;

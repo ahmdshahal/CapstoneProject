@@ -45,9 +45,10 @@ public class PlayerInteract : MonoBehaviour
         RaycastHit hitInfo;
         if (Physics.Raycast(ray, out hitInfo, distance, mask))
         {
-            if (hitInfo.collider.GetComponent<Interactable>() != null)
+            Interactable interactable = hitInfo.collider.GetComponent<Interactable>();
+
+            if (interactable != null)
             {
-                Interactable interactable = hitInfo.collider.GetComponent<Interactable>();
                 timerText.text = timerValue.ToString("0.0");
                 if (timerValue <= 0)
                 {
@@ -79,5 +80,6 @@ public class PlayerInteract : MonoBehaviour
             playerUI.UpdateText(string.Empty);
             timerValue = 0;
         }
+        
     }
 }
