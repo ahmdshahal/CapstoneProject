@@ -1441,6 +1441,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useEvents: 0
+  isPopUp: 0
   promptMessage: asdwqdawd
   timer: 3
   player: {fileID: 7033654365328415287}
@@ -1527,6 +1528,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useEvents: 1
+  isPopUp: 0
   promptMessage: Choose Option B
   timer: 3
 --- !u!65 &157173200
@@ -1943,6 +1945,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 751407037362a1c4fb8024441ecc0ce9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  teleportArea: {fileID: 0}
 --- !u!1 &222242941
 GameObject:
   m_ObjectHideFlags: 0
@@ -2632,6 +2635,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useEvents: 1
+  isPopUp: 0
   promptMessage: Choose Option A
   timer: 3
 --- !u!65 &266775226
@@ -3184,6 +3188,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useEvents: 1
+  isPopUp: 0
   promptMessage: Choose Option B
   timer: 3
 --- !u!65 &367817503
@@ -3554,6 +3559,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useEvents: 1
+  isPopUp: 0
   promptMessage: Retry Quiz
   timer: 3
 --- !u!65 &384282887
@@ -3916,6 +3922,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useEvents: 1
+  isPopUp: 0
   promptMessage: Choose Option B
   timer: 3
 --- !u!65 &433402617
@@ -4465,6 +4472,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useEvents: 1
+  isPopUp: 0
   promptMessage: Retry Quiz
   timer: 3
 --- !u!65 &514770316
@@ -5560,6 +5568,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useEvents: 1
+  isPopUp: 0
   promptMessage: Choose Option B
   timer: 3
 --- !u!65 &575421068
@@ -5866,6 +5875,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useEvents: 1
+  isPopUp: 0
   promptMessage: Choose Option B
   timer: 3
 --- !u!65 &672054321
@@ -6257,6 +6267,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useEvents: 1
+  isPopUp: 0
   promptMessage: Choose Option C
   timer: 3
 --- !u!65 &698873837
@@ -7084,6 +7095,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useEvents: 1
+  isPopUp: 0
   promptMessage: Choose Option A
   timer: 3
 --- !u!65 &773452044
@@ -7264,6 +7276,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useEvents: 1
+  isPopUp: 0
   promptMessage: Choose Option A
   timer: 3
 --- !u!65 &803947192
@@ -7499,6 +7512,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useEvents: 1
+  isPopUp: 0
   promptMessage: Choose Option B
   timer: 3
 --- !u!65 &842118940
@@ -8100,6 +8114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useEvents: 0
+  isPopUp: 0
   promptMessage: Teleport here
   timer: 5
   player: {fileID: 7033654365328415287}
@@ -8523,6 +8538,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useEvents: 1
+  isPopUp: 0
   promptMessage: Choose Option A
   timer: 3
 --- !u!65 &1011780250
@@ -9012,6 +9028,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useEvents: 1
+  isPopUp: 0
   promptMessage: Choose Option B
   timer: 3
 --- !u!65 &1061959220
@@ -9382,6 +9399,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useEvents: 1
+  isPopUp: 0
   promptMessage: Retry Quiz
   timer: 3
 --- !u!65 &1128154295
@@ -9844,6 +9862,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useEvents: 1
+  isPopUp: 0
   promptMessage: Choose Option C
   timer: 3
 --- !u!65 &1188448485
@@ -10388,6 +10407,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useEvents: 1
+  isPopUp: 0
   promptMessage: Choose Option A
   timer: 3
 --- !u!65 &1226575303
@@ -10743,6 +10763,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useEvents: 1
+  isPopUp: 0
   promptMessage: Choose Option A
   timer: 3
 --- !u!65 &1291126885
@@ -10923,6 +10944,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useEvents: 1
+  isPopUp: 0
   promptMessage: Choose Option A
   timer: 3
 --- !u!65 &1294766954
@@ -11103,6 +11125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useEvents: 1
+  isPopUp: 0
   promptMessage: Choose Option B
   timer: 3
 --- !u!65 &1323485306
@@ -11283,6 +11306,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useEvents: 1
+  isPopUp: 0
   promptMessage: Choose Option C
   timer: 3
 --- !u!65 &1359580960
@@ -11566,6 +11590,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 751407037362a1c4fb8024441ecc0ce9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  teleportArea: {fileID: 0}
 --- !u!1 &1394471948
 GameObject:
   m_ObjectHideFlags: 0
@@ -11649,6 +11674,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useEvents: 1
+  isPopUp: 0
   promptMessage: Choose Option A
   timer: 3
 --- !u!65 &1394471952
@@ -11829,6 +11855,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useEvents: 1
+  isPopUp: 0
   promptMessage: Choose Option C
   timer: 3
 --- !u!65 &1417845881
@@ -12112,6 +12139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 751407037362a1c4fb8024441ecc0ce9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  teleportArea: {fileID: 0}
 --- !u!1 &1446613754
 GameObject:
   m_ObjectHideFlags: 0
@@ -12195,6 +12223,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useEvents: 1
+  isPopUp: 0
   promptMessage: Choose Option A
   timer: 3
 --- !u!65 &1446613758
@@ -12451,6 +12480,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useEvents: 1
+  isPopUp: 0
   promptMessage: This is a QuadSphere
   timer: 2
 --- !u!1 &1526479862
@@ -13038,6 +13068,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useEvents: 1
+  isPopUp: 0
   promptMessage: Choose Option C
   timer: 3
 --- !u!65 &1587760810
@@ -13409,6 +13440,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useEvents: 1
+  isPopUp: 0
   promptMessage: Choose Option B
   timer: 3
 --- !u!65 &1683310556
@@ -14163,6 +14195,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useEvents: 1
+  isPopUp: 0
   promptMessage: Choose Option C
   timer: 3
 --- !u!65 &1809693443
@@ -14343,6 +14376,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useEvents: 1
+  isPopUp: 0
   promptMessage: Choose Option B
   timer: 3
 --- !u!65 &1810918355
@@ -14659,6 +14693,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useEvents: 1
+  isPopUp: 0
   promptMessage: Choose Option C
   timer: 3
 --- !u!65 &1875346324
@@ -14839,6 +14874,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useEvents: 1
+  isPopUp: 0
   promptMessage: Choose Option C
   timer: 3
 --- !u!65 &1879578923
@@ -15291,6 +15327,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useEvents: 1
+  isPopUp: 0
   promptMessage: Choose Option A
   timer: 3
 --- !u!65 &1942209703
@@ -16021,6 +16058,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useEvents: 1
+  isPopUp: 0
   promptMessage: Choose Option C
   timer: 3
 --- !u!65 &2013363967
@@ -16573,6 +16611,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useEvents: 1
+  isPopUp: 0
   promptMessage: Choose Option C
   timer: 3
 --- !u!65 &2080280067

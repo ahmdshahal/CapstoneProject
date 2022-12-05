@@ -313,6 +313,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useEvents: 1
+  isPopUp: 0
   promptMessage: Choose Option B
   timer: 2
 --- !u!1 &201871144
@@ -899,6 +900,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useEvents: 1
+  isPopUp: 0
   promptMessage: Choose Option B
   timer: 2
 --- !u!1 &465819418
@@ -1091,6 +1093,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useEvents: 1
+  isPopUp: 0
   promptMessage: Choose Option C
   timer: 2
 --- !u!1 &664313149
@@ -1511,6 +1514,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useEvents: 1
+  isPopUp: 0
   promptMessage: Choose Option A
   timer: 2
 --- !u!1 &985422957
@@ -2070,6 +2074,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useEvents: 1
+  isPopUp: 0
   promptMessage: Choose Option A
   timer: 2
 --- !u!1 &1109141923
@@ -2599,6 +2604,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useEvents: 1
+  isPopUp: 0
   promptMessage: Choose Option C
   timer: 2
 --- !u!1 &1525362868
@@ -3252,6 +3258,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useEvents: 1
+  isPopUp: 0
   promptMessage: Choose Option A
   timer: 2
 --- !u!1 &1669567368
@@ -4190,6 +4197,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useEvents: 1
+  isPopUp: 0
   promptMessage: Choose Option B
   timer: 2
 --- !u!1 &1863500775
@@ -4463,6 +4471,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useEvents: 1
+  isPopUp: 0
   promptMessage: Choose Option C
   timer: 2
 --- !u!65 &1883079268
