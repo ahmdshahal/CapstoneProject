@@ -12,7 +12,7 @@ public class PlayerInteract : MonoBehaviour
     [SerializeField]
     private LayerMask mask;
     [SerializeField]
-    private Camera cam;
+    private Transform rayTransform;
 
     [SerializeField]
     private GameObject timerUI;
@@ -43,7 +43,7 @@ public class PlayerInteract : MonoBehaviour
         else { mask = LayerMask.GetMask("Interactable");}
 
         //Create a ray at the center of the camera, shooting outwards.
-        Ray ray = new Ray(cam.transform.position, cam.transform.forward);
+        Ray ray = new Ray(rayTransform.transform.position, rayTransform.transform.forward);
         Debug.DrawRay(ray.origin, ray.direction * distance);
         RaycastHit hitInfo;
         if (Physics.Raycast(ray, out hitInfo, distance, mask))

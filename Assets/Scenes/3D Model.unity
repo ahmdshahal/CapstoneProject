@@ -2509,6 +2509,37 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ShowMaskGraphic: 1
+--- !u!1 &185059351
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 185059352}
+  m_Layer: 0
+  m_Name: RayTransform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &185059352
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185059351}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8430061249175267874}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &189113318
 GameObject:
   m_ObjectHideFlags: 0
@@ -14399,7 +14430,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 898509139}
   m_LocalRotation: {x: -0.67426205, y: -0.21266818, z: -0.21259397, w: 0.6744974}
-  m_LocalPosition: {x: -3.3060617, y: 0.085160494, z: 34.673405}
+  m_LocalPosition: {x: -3.293, y: 0.085, z: 34.655}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -28175,7 +28206,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 3.26, y: 1.62}
+  m_SizeDelta: {x: 3.26, y: 1.63}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1671336594
 MonoBehaviour:
@@ -31795,8 +31826,8 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1855422636}
-  m_LocalRotation: {x: 0, y: 0.92387956, z: 0, w: 0.38268343}
-  m_LocalPosition: {x: 0, y: 0, z: -7.383}
+  m_LocalRotation: {x: 0, y: 0.9235452, z: 0, w: 0.38348967}
+  m_LocalPosition: {x: 0, y: 0, z: -7.386}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -31804,10 +31835,10 @@ RectTransform:
   - {fileID: 190003085}
   m_Father: {fileID: 656103903}
   m_RootOrder: 31
-  m_LocalEulerAnglesHint: {x: 0, y: 135, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 134.9, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 15.37, y: 1.311}
+  m_AnchoredPosition: {x: 15.349, y: 1.311}
   m_SizeDelta: {x: 3.26, y: 1.62}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1855422638
@@ -37016,7 +37047,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5739dff304c574a4e884eb3f66626500, type: 2}
+  - {fileID: 2100000, guid: c4540e37d32db3940b6292a02289e59c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -42753,6 +42784,7 @@ GameObject:
   - component: {fileID: 6374801117245310567}
   - component: {fileID: 4558612626736656795}
   - component: {fileID: 5690439931491627083}
+  - component: {fileID: 6374801117245310569}
   - component: {fileID: 6374801117245310568}
   m_Layer: 6
   m_Name: gambar 2.3
@@ -44450,6 +44482,19 @@ MonoBehaviour:
   - {fileID: 151046090}
   isNotActive:
   - {fileID: 4884482148350772894}
+--- !u!65 &6374801117245310569
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4884482148350772894}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.3914948, y: 0.48577982, z: 1.1694564}
+  m_Center: {x: -0.0033609525, y: -0.11745492, z: 0.14885704}
 --- !u!33 &6397872922922014775
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -45600,7 +45645,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5739dff304c574a4e884eb3f66626500, type: 2}
+  - {fileID: 2100000, guid: c88a803453fc5394c8d505bf9b51dffe, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -45731,6 +45776,7 @@ GameObject:
   - component: {fileID: 8258155578656986984}
   - component: {fileID: 2748889572502191893}
   - component: {fileID: 4455561600890255507}
+  - component: {fileID: 8258155578656986986}
   - component: {fileID: 8258155578656986985}
   m_Layer: 6
   m_Name: gambar 2.1
@@ -47029,6 +47075,19 @@ MonoBehaviour:
   - {fileID: 1826740225}
   isNotActive:
   - {fileID: 7537712270206154397}
+--- !u!65 &8258155578656986986
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7537712270206154397}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.39149478, y: 0.48577973, z: 1.1694564}
+  m_Center: {x: -0.003360954, y: -0.11745396, z: 0.14885716}
 --- !u!4 &8259365215648451477
 Transform:
   m_ObjectHideFlags: 0
@@ -47261,6 +47320,7 @@ GameObject:
   - component: {fileID: 5993914435588049666}
   - component: {fileID: 8187865072196983067}
   - component: {fileID: 7210908616548934299}
+  - component: {fileID: 8404468936359502316}
   - component: {fileID: 8404468936359502315}
   m_Layer: 6
   m_Name: gambar disini
@@ -47288,6 +47348,19 @@ MonoBehaviour:
   - {fileID: 190003084}
   isNotActive:
   - {fileID: 8404468936359502314}
+--- !u!65 &8404468936359502316
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8404468936359502314}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.345157, y: 0.0000000762452, z: 1.6710712}
+  m_Center: {x: -0.0044594863, y: -0.01149278, z: -0.2540755}
 --- !u!4 &8430061248627895380
 Transform:
   m_ObjectHideFlags: 0
@@ -47420,7 +47493,7 @@ MonoBehaviour:
   mask:
     serializedVersion: 2
     m_Bits: 64
-  cam: {fileID: 8430061249175267877}
+  rayTransform: {fileID: 185059352}
   timerUI: {fileID: 1540538299543721490}
   timerText: {fileID: 1540538299393808796}
   imgTimer: {fileID: 1540538298172628164}
@@ -47446,11 +47519,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8430061249175267879}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.6, z: 0.5}
+  m_LocalPosition: {x: 0, y: 0.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1540538298987542415}
+  - {fileID: 185059352}
   m_Father: {fileID: 8430061248627895380}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -48048,6 +48122,7 @@ GameObject:
   - component: {fileID: 5360831467611593615}
   - component: {fileID: 9141762678856547128}
   - component: {fileID: 8834407342624172580}
+  - component: {fileID: 9141762678856547130}
   - component: {fileID: 9141762678856547129}
   m_Layer: 6
   m_Name: gambar 2.2
@@ -48438,6 +48513,19 @@ MonoBehaviour:
   - {fileID: 448172714}
   isNotActive:
   - {fileID: 8809725277316586952}
+--- !u!65 &9141762678856547130
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8809725277316586952}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.3914949, y: 0.48577994, z: 1.1694565}
+  m_Center: {x: -0.0033611953, y: -0.11745591, z: 0.14885706}
 --- !u!4 &9169848062300125422
 Transform:
   m_ObjectHideFlags: 0
