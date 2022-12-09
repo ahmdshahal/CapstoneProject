@@ -23,18 +23,31 @@ public class PlayerInteract : MonoBehaviour
     [SerializeField]
     private float timerValue;
 
+    [SerializeField]
+    private LineRenderer laserLineRenderer; 
+    public float laserWidth = 0.1f;
+    public float laserMaxLength = 5f;
+
     private float countTime;
     private bool isCount;
     private PlayerUI playerUI;
 
-    void Start()
+    void Awake()
     {
         playerUI = GetComponent<PlayerUI>();
+    }
+
+    void Start()
+    {
+        Vector3[] initLaserPositions = new Vector3[2] { Vector3.zero, Vector3.zero };
+        laserLineRenderer.SetPositions(initLaserPositions);
+        laserLineRenderer.SetWidth(laserWidth, laserWidth);
     }
 
     void FixedUpdate()
     {
         InteractObjectWithTimer();
+        //ShootLaserFromTargetPosition(new Vector3(rayTransform.position.x, rayTransform.position.y - 0.1f, rayTransform.position.z), rayTransform.transform.forward, laserMaxLength);
     }
 
     void InteractObjectWithTimer()
@@ -84,5 +97,20 @@ public class PlayerInteract : MonoBehaviour
             timerValue = 0;
         }
         
+    }
+
+    void ShootLaserFromTargetPosition(Vector3 targetPosition, Vector3 direction, float length)
+    {
+        Ray ray = new Ray(targetPosition, direction);
+        RaycastHit raycastHit;
+        Vector3 endPosition = targetPosition + (length * direction);
+
+        if (Physics.Raycast(ray, out raycastHit, length))
+        {
+            endPosition = raycastHit.point;
+        }
+
+        /*laserLineRenderer.SetPosition(0, targetPosition);
+        laserLineRenderer.SetPosition(1, endPosition);*/
     }
 }
