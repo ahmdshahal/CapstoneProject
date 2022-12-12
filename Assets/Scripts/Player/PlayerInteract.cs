@@ -23,6 +23,9 @@ public class PlayerInteract : MonoBehaviour
     [SerializeField]
     private float timerValue;
 
+    [SerializeField]
+    private SaveLoadManager manager;
+
     private float countTime;
     private bool isCount;
     private PlayerUI playerUI;
@@ -70,6 +73,7 @@ public class PlayerInteract : MonoBehaviour
                         if (timerValue <= 0)
                         {
                             interactable.BaseInteract();
+                            manager.Save();
                             isCount = false;
                         }
                     }
