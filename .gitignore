@@ -3,6 +3,8 @@ Logs/*
 Temp/* 
 obj/*
 .vs/*
+.vs/CapstoneProject/*
+.vscode/
  
 .vsconfig 
 *.sln 
